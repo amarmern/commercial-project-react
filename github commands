@@ -1,0 +1,51 @@
+for adding the repository
+
+step1:
+>git remote add origin https://github.com/9379171853/Users-search-ReactJS.git
+
+step2;
+>yarn add gh-pages
+
+step3
+start in packge.json
+under main
+"homepage": "https://9379171853.github.io/Users-search-ReactJS",
+
+in script section add two scripts:
+"predeploy": "yarn run build",
+"deploy": "gh-pages -b master -d build",
+step4:
+>yarn deploy
+
+>git add -A
+>git commit -m "adding files for github pages"
+
+how can check the versions of ReactJS
+
+>yarn list react-dom react-scripts react
+
+
+
+for adding the saaa
+> yarn add node-saas
+
+
+how to remove yarn lock and node lock file from system if confilict is there...
+>rm -rf yarn.lock
+>rm -rf node_modules
+> yarn (install new verssion)
+
+>git remote add origin "github repository"
+> git add -A
+> git commit -m "with comments"
+>git push origin master
+
+
+google fonts
+
+https://fonts.google.com/
+
+ font-family: 'Open Sans Condensed', sans-serif
+ 
+ 
+
