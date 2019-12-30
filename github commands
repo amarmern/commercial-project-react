@@ -47,5 +47,31 @@ https://fonts.google.com/
 
  font-family: 'Open Sans Condensed', sans-serif
  
+ adding Redux library
+ 
+ > yarn add redux redux-logger react-redux
+ -in src folder add the root-reducer.js file
+ 
+ add - reselect library
+ 
+ yarn add reselect
+ 
+ yarn add redux-persist
+ 
+ yarn add react-stripe-checkout
+ 
+ 4242 4242 4242 4242
+ 123
+ 0120
+ 
+ > heroku --version
+ > heroku login
+ 
+ >heroku create crown-live --buildpack https://github.com/mars/create-react-app-buildpack.git
+ 
+ 
+ 
+ 
+ 
  
 
